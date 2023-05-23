@@ -10,6 +10,7 @@ import lombok.Data;
 public class Product{
 
     @Id
+    @GeneratedValue
     private Long id;
 
     @Indexed
