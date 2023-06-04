@@ -1,4 +1,6 @@
 # Spring Boot + MongoDB + Redis Caching Example
+This project demostrates cacheing using Redis framework
+
 ## Setting up
 -  Ensure MongoDB Is running. You can run a docker image
 -  Ensure Redis is running. You can run a docker image
