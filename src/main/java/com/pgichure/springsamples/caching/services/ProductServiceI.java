@@ -1,21 +1,23 @@
 package com.pgichure.springsamples.caching.services;
 
+import java.util.List;
+
 import com.pgichure.springsamples.caching.dtos.ProductDto;
-import com.java.util.List;
+import com.pgichure.springsamples.caching.models.Product;
 
 
 public interface ProductServiceI{
 
-    ProductDto findByMkuCode(String code);
+    public ProductDto findByMkuCode(String code);
 
-    ProductDto findById(Long id);
+    public ProductDto findById(Long id);
 
-    Lict<ProductDto> findByAll();
+    public List<ProductDto> findByAll();
 
-    ProductDto update(Long id, ProductDto request);
+    public ProductDto update(Long id, ProductDto request);
 
-    void delete(Long id);
+    public void delete(Long id);
 
-    ProductDto save(Long id, ProductDto request);
+    public ProductDto save(ProductDto request);
 
 }

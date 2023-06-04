@@ -10,6 +10,4 @@ public class CachingSampleApplication{
     public static void main(String[] args) {
         SpringApplication.run(CachingSampleApplication.class, args);
     }
-
-
 }
